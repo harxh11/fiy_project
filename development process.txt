@@ -1,0 +1,20 @@
+1. Create a javascript folder and initialize it with NPM (node package manager)
+
+2. install all dependencies that are required for building and deploying the smart contract.
+	-> npm init -y
+	-> npm install --save-dev hardhat
+	-> npm install ethers
+(currently using a testing folder for building and deploying a sample contract)
+
+3. Run Hardhat
+	-> "npx hardhat" this creates a complete structure for hardhat itself in our repo.
+
+4. hardhat itself gives multiple options while installing like 
+	-> what is the sample structure of project, 
+	-> whether to install Git ignore file and other required dependencies
+	-> where to initialize the hardhat project root.
+
+5. after this the hardhat will create a complete folder structure for itself which contains folders like contracts, ignition, test, etc. containing sample codes and maybe packages and stuff.
+
+6. now we can just upload our contracts (.sol files) to the contracts folder created by Hardhat
+	-> adding the contract that was developed on remix platform (Ballot.sol) and maybe others as well (Storage.sol, Owner.sol)
