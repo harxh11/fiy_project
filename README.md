@@ -24,6 +24,35 @@
 - [Shreyash Wadatkar](https://www.github.com/)
 - [Harsh Jagtap](https://www.github.com/harxh11)
 
+
+## Steps to Clone and Run Project
+
+To clone the git repository
+
+```bash
+  git clone https://github.com/harxh11/fiy_project.git
+```
+
+To install all dependencies
+
+```bash
+  cd .\solidity_test\
+  npm install
+```
+
+To compile the Contract
+
+```bash
+  npx hardhat compile
+```
+
+To re-compile, deploy contract and testing sample code written in scripts folder
+
+```bash
+  npx hardhat run scripts/run.js --network hardhat
+```
+
+
 ## References
 
 - YT for Solidity -> https://www.youtube.com/watch?v=ipwxYa-F1uY
