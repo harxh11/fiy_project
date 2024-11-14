@@ -5,6 +5,7 @@
 	-> npm install --save-dev hardhat
 	-> npm install ethers
 (currently using a testing folder for building and deploying a sample contract)
+(Hardhat is completely new and most essential tool used in our project for contracts.. can go through documentation for hardhat from ""https://hardhat.org/hardhat-runner/docs/getting-started")
 
 ==> install Solidity extension on VS Code.
 
@@ -20,3 +21,19 @@
 
 ==> now we can just upload our contracts (.sol files) to the contracts folder created by Hardhat
 	-> adding the contract that was developed on remix platform (Ballot.sol) and maybe others as well (Storage.sol, Owner.sol)
+
+==> compiling all the contracts 
+	-> "npx hardhat compile"
+	-> need to install all the dependencies such as chai, ignition, ethers for hardhat compilation.
+
+==> test the sample file given in the tests folder by hardhat
+	-> use "npx hardhat test"
+	-> this will automatically test the cases from the Lock.js file and validate them with Lock.sol contract.. 
+	-> if all the test cases are passed, the project is working fine.
+
+==> now as we know the project is working and contracts are compiling
+	-> we will create a new folder named "scripts", where we will create a new file "run.js" that will contain code for recompiling and deploying our contract 	
+	-> after deploying contract, we have added a simple code that uses functions from smart contracts like CastingVote, checkingWinner, candidateIndex, etc.
+	-> Finally we will run this file/code using "npx hardhat run scripts/run.js --network hardhat"
+
+==> if the terminal displays the output we need, the Contract is ready : )
