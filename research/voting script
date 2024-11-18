@@ -1,0 +1,4 @@
+=>JavaScript Script for Voting System:
+====Allow secure registration of voters with verification.
+====Handle the casting of votes with checks for voter eligibility and uniqueness.
+====Use blockchain features to ensure that the votes are immutable and transparent.
