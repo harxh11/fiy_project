@@ -2,3 +2,15 @@
 ====Allow secure registration of voters with verification.
 ====Handle the casting of votes with checks for voter eligibility and uniqueness.
 ====Use blockchain features to ensure that the votes are immutable and transparent.
+
+>Integration Explanation
+>>Setup:
+>>>Deploy the restructure.sol smart contract using Hardhat or Truffle.
+>>>Use voting.js to interact with the deployed contract.
+>>Voter and Candidate Registration:
+>>>The Election Commission (deployer) registers candidates and voters using specific addresses and IDs.
+>>Voting Process:
+>>>Voters can vote by calling the vote() function with the candidate ID.
+>>>The smart contract ensures that each voter can vote only once.
+>>Result Calculation:
+>>>The winningCandidate() function returns the name, party, and vote count of the candidate with the highest votes.
