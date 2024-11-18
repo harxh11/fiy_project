@@ -1,0 +1,7 @@
+=>Voter Structure Enhancement:
+=====Include more voter details (like voter ID, age, and verification status).
+=====Introduce biometric or unique identifiers (e.g., Aadhaar number for Indian elections).
+=====Ensure anonymity in voting while storing details for verification.
+=>Proposal/Candidate Structure Enhancement:
+=====Include detailed candidate information (like name, party affiliation, and manifesto link).
+=====Store the candidate's vote securely.
