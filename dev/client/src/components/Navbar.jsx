@@ -27,6 +27,27 @@ const Navbar = () => {
           </h1> */}
         </div>
       </div>
+
+      <div className="flex items-center justify-center gap-[5px] pr-10 text-[17px] font-[600]">
+        <h1 className="cursor-pointer px-5 py-2 rounded-md hover:bg-[rgb(15,63,129)] transition duration-200 ease-linear">
+          Home
+        </h1>
+        <h1 className="cursor-pointer px-5 py-2 rounded-md hover:bg-[rgb(15,63,129)] transition">
+          Dashboard
+        </h1>
+        <h1 className="cursor-pointer px-5 py-2 rounded-md hover:bg-[rgb(15,63,129)] transition">
+          Vote Casting
+        </h1>
+        <h1 className="cursor-pointer px-5 py-2 rounded-md hover:bg-[rgb(15,63,129)] transition">
+          Results
+        </h1>
+        <h1 className="cursor-pointer px-5 py-2 rounded-md hover:bg-[rgb(15,63,129)] transition">
+          Candidates List
+        </h1>
+        <h1 className="cursor-pointer px-5 py-2 rounded-md hover:bg-[rgb(15,63,129)] transition">
+          Login/Register
+        </h1>
+      </div>
       {/* <div className="flex items-center justify-center w-[30%]">
         <div className="w-[100%] flex items-center pr-4 border-2 rounded-[10px] text-[15px]">
           <input
@@ -39,7 +60,7 @@ const Navbar = () => {
           </div>
         </div>
       </div> */}
-      <div>
+      {/* <div>
         <div className="flex justify-center gap-7 text-white">
           <div className="flex p-2 rounded-[10px] cursor-pointer">
             <TiHeart size={25} />
@@ -56,7 +77,7 @@ const Navbar = () => {
             <FaRegUser size={25} />
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
