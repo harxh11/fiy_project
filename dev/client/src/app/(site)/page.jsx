@@ -31,14 +31,14 @@ export default function Home() {
 
         {/* Buttons Section */}
 
-        <div className="flex gap-[50px] justify-center">
+        {/* <div className="flex gap-[50px] justify-center">
           <button className="bg-[rgb(4,119,183)] text-white px-3 py-2 rounded-[10px] text-[20px] hover:bg-[rgb(15,63,129)] transition">
             Create Account
           </button>
           <button className="bg-[rgb(4,119,183)] text-white px-3 py-2 rounded-[10px] text-[20px] hover:bg-[rgb(15,63,129)] transition">
             Cast Vote
           </button>
-        </div>
+        </div> */}
 
         {/* Feature Component */}
 

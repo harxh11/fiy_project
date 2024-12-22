@@ -11,12 +11,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="text-white">
-        <div className="w-full absolute z-[-10]">
-          <Image src={bgImage} className="" />
+      <body className="text-white relative">
+        <div className="w-full">
+          <Image src={bgImage} className="absolute z-[-10]" />
         </div>
         <Navbar />
         {children}
+        {/* <div className="absolute bottom-0 h-20 bg-white w-full"></div> */}
       </body>
     </html>
   );
