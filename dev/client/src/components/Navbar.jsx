@@ -1,8 +1,8 @@
 "use client";
 
-import { TiHeart } from "react-icons/ti";
-import { IoIosGlobe } from "react-icons/io";
-import { FaRegUser } from "react-icons/fa";
+// import { TiHeart } from "react-icons/ti";
+// import { IoIosGlobe } from "react-icons/io";
+// import { FaRegUser } from "react-icons/fa";
 import { useRouter } from "next/navigation";
 import { SiHiveBlockchain } from "react-icons/si";
 

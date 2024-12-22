@@ -1,5 +1,6 @@
 import "./globals.css";
-import Navbar from "@/components/Navbar";
+// import Navbar from "/components/Navbar";
+import Navbar from "../components/Navbar";
 import Image from "next/image";
 import bgImage from "../../public/home-page-bg.png";
 export const metadata = {
