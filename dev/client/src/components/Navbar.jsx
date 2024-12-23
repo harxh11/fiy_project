@@ -1,8 +1,5 @@
 "use client";
 
-// import { TiHeart } from "react-icons/ti";
-// import { IoIosGlobe } from "react-icons/io";
-// import { FaRegUser } from "react-icons/fa";
 import { useRouter } from "next/navigation";
 import { SiHiveBlockchain } from "react-icons/si";
 
@@ -44,7 +41,12 @@ const Navbar = () => {
         <h1 className="cursor-pointer px-5 py-2 rounded-md hover:bg-[rgb(15,63,129)] transition">
           Candidates List
         </h1>
-        <h1 className="cursor-pointer px-5 py-2 rounded-md hover:bg-[rgb(15,63,129)] transition">
+        <h1
+          onClick={() => {
+            router.push("/login");
+          }}
+          className="cursor-pointer px-5 py-2 rounded-md hover:bg-[rgb(15,63,129)] transition"
+        >
           Login/Register
         </h1>
       </div>
