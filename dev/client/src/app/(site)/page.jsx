@@ -9,13 +9,16 @@ import { FaEthereum } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <div className="flex justify-between items-center overflow-hidden mt-11 h-full w-full px-[110px]">
+    <div className="flex justify-between items-center overflow-hidden h-full w-full">
       <div className="w-full">
         {/* Main Heading of Home Page */}
 
         <div className="flex justify-center">
           <div className="my-4 gap-5 text-center">
-            <h1 className="font-medium text-[40px] mt-5">
+            <h1
+              style={{ fontFamily: "'Times New Roman', Times, serif" }}
+              className="font-medium text-[45px] mt-5"
+            >
               Welcome to DecentraVote
             </h1>
             <p className="px-44 opacity-80">
@@ -27,6 +30,12 @@ export default function Home() {
               throughout the election lifecycle.
             </p>
           </div>
+        </div>
+
+        {/* Horizontal Line */}
+
+        <div className="flex items-center justify-center my-10">
+          <hr className="text-white bg-white border-[1px] w-[50%]" />
         </div>
 
         {/* Buttons Section */}
@@ -44,7 +53,12 @@ export default function Home() {
 
         <div className="mt-10 w-full py-2">
           <div className="text-center">
-            <h1 className="text-[35px]">What We Provide ?</h1>
+            <h1
+              style={{ fontFamily: "'Times New Roman', Times, serif" }}
+              className="text-[35px]"
+            >
+              What We Provide ?
+            </h1>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste,
               nobis?

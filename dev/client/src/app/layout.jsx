@@ -16,7 +16,8 @@ export default function RootLayout({ children }) {
           <Image src={bgImage} className="absolute z-[-10]" />
         </div>
         <Navbar />
-        {children}
+        <div className="mt-11 px-[110px]">{children}</div>
+
         {/* <div className="absolute bottom-0 h-20 bg-white w-full"></div> */}
       </body>
     </html>
