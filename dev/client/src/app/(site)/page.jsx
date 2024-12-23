@@ -32,6 +32,12 @@ export default function Home() {
           </div>
         </div>
 
+        {/* Horizontal Line */}
+
+        <div className="flex items-center justify-center my-10">
+          <hr className="text-white bg-white border-[1px] w-[50%]" />
+        </div>
+
         {/* Buttons Section */}
 
         {/* <div className="flex gap-[50px] justify-center">
