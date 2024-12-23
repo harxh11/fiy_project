@@ -18,34 +18,47 @@ const Navbar = () => {
           }}
           className="text-center cursor-pointer"
         >
-          <h1 className="font-[700] text-[30px]">DecentraVote</h1>
+          <h1
+            style={{ fontFamily: "'Times New Roman', Times, serif" }}
+            className="font-[500] text-[35px]"
+          >
+            DecentraVote
+          </h1>
           {/* <h1 className="opacity-50 text-[12px] relative top-[-10px]">
             Transparent Elections
           </h1> */}
         </div>
       </div>
 
-      <div className="flex items-center justify-center gap-[5px] pr-10 text-[17px] font-[600]">
-        <h1 className="cursor-pointer px-5 py-2 rounded-md hover:bg-[rgb(15,63,129)] transition duration-200 ease-linear">
+      <div
+        style={{ fontFamily: "'Times New Roman', Times, serif" }}
+        className="flex items-center justify-center gap-[5px] pr-10 text-[17px] font-[600]"
+      >
+        <h1
+          onClick={() => {
+            router.push("/");
+          }}
+          className="cursor-pointer font-[400] text-[20px] px-5 py-2 rounded-md hover:bg-[rgb(15,63,129)] transition duration-200 ease-linear"
+        >
           Home
         </h1>
-        <h1 className="cursor-pointer px-5 py-2 rounded-md hover:bg-[rgb(15,63,129)] transition">
+        <h1 className="cursor-pointer font-[400] text-[20px] px-5 py-2 rounded-md hover:bg-[rgb(15,63,129)] transition">
           Dashboard
         </h1>
-        <h1 className="cursor-pointer px-5 py-2 rounded-md hover:bg-[rgb(15,63,129)] transition">
+        <h1 className="cursor-pointer font-[400] text-[20px] px-5 py-2 rounded-md hover:bg-[rgb(15,63,129)] transition">
           Vote Casting
         </h1>
-        <h1 className="cursor-pointer px-5 py-2 rounded-md hover:bg-[rgb(15,63,129)] transition">
+        <h1 className="cursor-pointer font-[400] text-[20px] px-5 py-2 rounded-md hover:bg-[rgb(15,63,129)] transition">
           Results
         </h1>
-        <h1 className="cursor-pointer px-5 py-2 rounded-md hover:bg-[rgb(15,63,129)] transition">
+        <h1 className="cursor-pointer font-[400] text-[20px] px-5 py-2 rounded-md hover:bg-[rgb(15,63,129)] transition">
           Candidates List
         </h1>
         <h1
           onClick={() => {
             router.push("/login");
           }}
-          className="cursor-pointer px-5 py-2 rounded-md hover:bg-[rgb(15,63,129)] transition"
+          className="cursor-pointer font-[400] text-[20px] px-5 py-2 rounded-md hover:bg-[rgb(15,63,129)] transition"
         >
           Login/Register
         </h1>

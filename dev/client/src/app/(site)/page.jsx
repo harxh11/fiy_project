@@ -15,7 +15,10 @@ export default function Home() {
 
         <div className="flex justify-center">
           <div className="my-4 gap-5 text-center">
-            <h1 className="font-medium text-[40px] mt-5">
+            <h1
+              style={{ fontFamily: "'Times New Roman', Times, serif" }}
+              className="font-medium text-[45px] mt-5"
+            >
               Welcome to DecentraVote
             </h1>
             <p className="px-44 opacity-80">
@@ -44,7 +47,12 @@ export default function Home() {
 
         <div className="mt-10 w-full py-2">
           <div className="text-center">
-            <h1 className="text-[35px]">What We Provide ?</h1>
+            <h1
+              style={{ fontFamily: "'Times New Roman', Times, serif" }}
+              className="text-[35px]"
+            >
+              What We Provide ?
+            </h1>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste,
               nobis?
