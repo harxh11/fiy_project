@@ -9,7 +9,7 @@ import { FaEthereum } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <div className="flex justify-between items-center overflow-hidden h-full w-full">
+    <div className="flex text-white justify-between items-center overflow-hidden h-full w-full">
       <div className="w-full">
         {/* Main Heading of Home Page */}
 

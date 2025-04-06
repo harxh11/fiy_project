@@ -11,15 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="text-white relative">
-        <div className="w-full">
-          <Image src={bgImage} className="absolute z-[-10]" />
-        </div>
-        <Navbar />
-        <div className="mt-11 px-[110px]">{children}</div>
-
-        {/* <div className="absolute bottom-0 h-20 bg-white w-full"></div> */}
-      </body>
+      <body className="text-white">{children}</body>
     </html>
   );
 }
