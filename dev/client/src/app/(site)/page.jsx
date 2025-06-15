@@ -60,8 +60,7 @@ export default function Home() {
               What We Provide ?
             </h1>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste,
-              nobis?
+            Tamper-proof elections using distributed ledger technology with cryptographic security.
             </p>
           </div>
 
@@ -75,14 +74,14 @@ export default function Home() {
                   <hr className="w-20 my-2 text-center" />
                 </div>
                 <div className="text-center">
-                  <h1 className="text-lg font-[500]">Heading Random</h1>
+                  <h1 className="text-lg font-[500]">Blockchain Security</h1>
                   <p className="text-sm py-2">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Quis, nisi voluptate ad voluptates totam unde!
+                  Ensures your vote remains secure and tamper-proof throughout the entire electoral process.
                   </p>
-                  <a href="" className="font-[600] underline">
+                  {/* <a href="" className="font-[600] underline">
                     Link
-                  </a>
+                  </a> */}
+
                 </div>
               </div>
             </div>
@@ -95,14 +94,13 @@ export default function Home() {
                   <hr className="w-20 my-2 text-center" />
                 </div>
                 <div className="text-center">
-                  <h1 className="text-lg font-[500]">Heading Random</h1>
+                  <h1 className="text-lg font-[500]">Privacy Protected</h1>
                   <p className="text-sm py-2">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Quis, nisi voluptate ad voluptates totam unde!
+                  Advanced encryption maintains complete voter anonymity while ensuring full verifiability of the democratic process.
                   </p>
-                  <a href="" className="font-[600] underline">
+                  {/* <a href="" className="font-[600] underline">
                     Link
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -115,14 +113,13 @@ export default function Home() {
                   <hr className="w-20 my-2 text-center" />
                 </div>
                 <div className="text-center">
-                  <h1 className="text-lg font-[500]">Heading Random</h1>
+                  <h1 className="text-lg font-[500]">Audit Transparency</h1>
                   <p className="text-sm py-2">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Quis, nisi voluptate ad voluptates totam unde!
+                  Immutable blockchain records provide complete election audit trails that can be independently verified by any stakeholder.
                   </p>
-                  <a href="" className="font-[600] underline">
+                  {/* <a href="" className="font-[600] underline">
                     Link
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -135,14 +132,13 @@ export default function Home() {
                   <hr className="w-20 my-2 text-center" />
                 </div>
                 <div className="text-center">
-                  <h1 className="text-lg font-[500]">Heading Random</h1>
+                  <h1 className="text-lg font-[500]">Universal Accessibility</h1>
                   <p className="text-sm py-2">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Quis, nisi voluptate ad voluptates totam unde!
+                  Accessible from any device, enabling remote voting for citizens regardless of location or physical limitations.
                   </p>
-                  <a href="" className="font-[600] underline">
+                  {/* <a href="" className="font-[600] underline">
                     Link
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -155,18 +151,17 @@ export default function Home() {
                   <hr className="w-20 my-2 text-center" />
                 </div>
                 <div className="text-center">
-                  <h1 className="text-lg font-[500]">Heading Random</h1>
+                  <h1 className="text-lg font-[500]">Cost-Effective</h1>
                   <p className="text-sm py-2">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Quis, nisi voluptate ad voluptates totam unde!
+                  Significantly reduced operational costs compared to traditional paper-based voting systems while increasing efficiency and speed.
                   </p>
-                  <a
+                  {/* <a
                     href=""
                     className="font-[600] underline flex items-center justify-center gap-3"
                   >
                     Learn More
                     <FaArrowRightLong />
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -179,14 +174,13 @@ export default function Home() {
                   <hr className="w-20 my-2 text-center" />
                 </div>
                 <div className="text-center">
-                  <h1 className="text-lg font-[500]">Heading Random</h1>
+                  <h1 className="text-lg font-[500]">Transparency</h1>
                   <p className="text-sm py-2">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Quis, nisi voluptate ad voluptates totam unde!
+                  Publicly verifiable results while maintaining voter privacy through advanced cryptographic techniques.
                   </p>
-                  <a href="" className="font-[600] underline">
+                  {/* <a href="" className="font-[600] underline">
                     Link
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
