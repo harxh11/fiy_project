@@ -1,118 +1,15 @@
 {
-  "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+  "address": "0x3Aa5ebB10DC797CAC828524e59A333d0A371443c",
   "abi": [
-    {
-      "type": "constructor",
-      "stateMutability": "undefined",
-      "payable": false,
-      "inputs": [
-        { "type": "string[]", "name": "proposalNames" }
-      ]
-    },
-    {
-      "type": "function",
-      "name": "chairperson",
-      "constant": true,
-      "stateMutability": "view",
-      "payable": false,
-      "inputs": [],
-      "outputs": [
-        { "type": "address", "name": "" }
-      ]
-    },
-    {
-      "type": "function",
-      "name": "delegate",
-      "constant": false,
-      "payable": false,
-      "inputs": [
-        { "type": "address", "name": "to" }
-      ],
-      "outputs": []
-    },
-    {
-      "type": "function",
-      "name": "getNumProposals",
-      "constant": true,
-      "stateMutability": "view",
-      "payable": false,
-      "inputs": [],
-      "outputs": [
-        { "type": "uint256", "name": "" }
-      ]
-    },
-    {
-      "type": "function",
-      "name": "giveRightToVote",
-      "constant": false,
-      "payable": false,
-      "inputs": [
-        { "type": "address", "name": "voter" }
-      ],
-      "outputs": []
-    },
-    {
-      "type": "function",
-      "name": "proposals",
-      "constant": true,
-      "stateMutability": "view",
-      "payable": false,
-      "inputs": [
-        { "type": "uint256", "name": "" }
-      ],
-      "outputs": [
-        { "type": "bytes32", "name": "name" },
-        { "type": "uint256", "name": "voteCount" }
-      ]
-    },
-    {
-      "type": "function",
-      "name": "vote",
-      "constant": false,
-      "payable": false,
-      "inputs": [
-        { "type": "uint256", "name": "proposal" }
-      ],
-      "outputs": []
-    },
-    {
-      "type": "function",
-      "name": "voters",
-      "constant": true,
-      "stateMutability": "view",
-      "payable": false,
-      "inputs": [
-        { "type": "address", "name": "" }
-      ],
-      "outputs": [
-        { "type": "uint256", "name": "weight" },
-        { "type": "bool", "name": "voted" },
-        { "type": "address", "name": "delegate" },
-        { "type": "uint256", "name": "vote" }
-      ]
-    },
-    {
-      "type": "function",
-      "name": "winnerName",
-      "constant": true,
-      "stateMutability": "view",
-      "payable": false,
-      "inputs": [],
-      "outputs": [
-        { "type": "bytes32", "name": "winnerName_" }
-      ]
-    },
-    {
-      "type": "function",
-      "name": "winningProposal",
-      "constant": true,
-      "stateMutability": "view",
-      "payable": false,
-      "inputs": [],
-      "outputs": [
-        { "type": "uint256", "name": "winningProposal_" }
-      ]
-    }
+    "{\"type\":\"constructor\",\"stateMutability\":\"undefined\",\"payable\":false,\"inputs\":[{\"type\":\"string[]\",\"name\":\"proposalNames\"}]}",
+    "{\"type\":\"function\",\"name\":\"chairperson\",\"constant\":true,\"stateMutability\":\"view\",\"payable\":false,\"inputs\":[],\"outputs\":[{\"type\":\"address\",\"name\":\"\"}]}",
+    "{\"type\":\"function\",\"name\":\"delegate\",\"constant\":false,\"payable\":false,\"inputs\":[{\"type\":\"address\",\"name\":\"to\"}],\"outputs\":[]}",
+    "{\"type\":\"function\",\"name\":\"giveRightToVote\",\"constant\":false,\"payable\":false,\"inputs\":[{\"type\":\"address\",\"name\":\"voter\"}],\"outputs\":[]}",
+    "{\"type\":\"function\",\"name\":\"proposals\",\"constant\":true,\"stateMutability\":\"view\",\"payable\":false,\"inputs\":[{\"type\":\"uint256\",\"name\":\"\"}],\"outputs\":[{\"type\":\"bytes32\",\"name\":\"name\"},{\"type\":\"uint256\",\"name\":\"voteCount\"}]}",
+    "{\"type\":\"function\",\"name\":\"vote\",\"constant\":false,\"payable\":false,\"inputs\":[{\"type\":\"uint256\",\"name\":\"proposal\"}],\"outputs\":[]}",
+    "{\"type\":\"function\",\"name\":\"voters\",\"constant\":true,\"stateMutability\":\"view\",\"payable\":false,\"inputs\":[{\"type\":\"address\",\"name\":\"\"}],\"outputs\":[{\"type\":\"uint256\",\"name\":\"weight\"},{\"type\":\"bool\",\"name\":\"voted\"},{\"type\":\"address\",\"name\":\"delegate\"},{\"type\":\"uint256\",\"name\":\"vote\"}]}",
+    "{\"type\":\"function\",\"name\":\"winnerName\",\"constant\":true,\"stateMutability\":\"view\",\"payable\":false,\"inputs\":[],\"outputs\":[{\"type\":\"bytes32\",\"name\":\"winnerName_\"}]}",
+    "{\"type\":\"function\",\"name\":\"winningProposal\",\"constant\":true,\"stateMutability\":\"view\",\"payable\":false,\"inputs\":[],\"outputs\":[{\"type\":\"uint256\",\"name\":\"winningProposal_\"}]}"
   ],
   "proposals": [
     "Candidate A - BJP",

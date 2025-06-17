@@ -42,9 +42,9 @@ const Navbar = () => {
         >
           Home
         </h1>
-        <h1 className="cursor-pointer font-[400] text-[20px] px-5 py-2 rounded-md hover:bg-[rgb(15,63,129)] transition">
+        {/* <h1 className="cursor-pointer font-[400] text-[20px] px-5 py-2 rounded-md hover:bg-[rgb(15,63,129)] transition">
           Dashboard
-        </h1>
+        </h1> */}
         <h1
           className="cursor-pointer font-[400] text-[20px] px-5 py-2 rounded-md hover:bg-[rgb(15,63,129)] transition"
           onClick={() => {
@@ -53,19 +53,21 @@ const Navbar = () => {
         >
           Vote Casting
         </h1>
-        <h1 className="cursor-pointer font-[400] text-[20px] px-5 py-2 rounded-md hover:bg-[rgb(15,63,129)] transition">
+        {/* <h1 className="cursor-pointer font-[400] text-[20px] px-5 py-2 rounded-md hover:bg-[rgb(15,63,129)] transition"onClick={() => {
+            router.push("/results");
+          }}>
           Results
-        </h1>
-        <h1 className="cursor-pointer font-[400] text-[20px] px-5 py-2 rounded-md hover:bg-[rgb(15,63,129)] transition">
+        </h1> */}
+        {/* <h1 className="cursor-pointer font-[400] text-[20px] px-5 py-2 rounded-md hover:bg-[rgb(15,63,129)] transition">
           Candidates List
-        </h1>
+        </h1> */}
         <h1
           onClick={() => {
             router.push("/login");
           }}
           className="cursor-pointer font-[400] text-[20px] px-5 py-2 rounded-md hover:bg-[rgb(15,63,129)] transition"
         >
-          Login/Register
+          Admin Login
         </h1>
       </div>
       {/* <div className="flex items-center justify-center w-[30%]">
